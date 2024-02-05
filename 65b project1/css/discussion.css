@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #a4ffff;
+  font-family: "CustomFont";
+}
+.pl {
+  padding-left: 10%;
+}
+@font-face {
+  font-family: 'CustomFont';
+  src: url('2157-font.otf');
+}
+.clear {
+  clear: both;
+}
+a {
+  text-decoration: none;
+}
+.cust {
+  color: #533d9c;
+  font-size: 40px;
+}
+.top {
+  width: 150px;
+  height: 60px;
+  line-height: 50px;
+  border: 3px solid #533e9d;
+  background: #fcfa70;
+  text-align: center;
+  margin: 10px auto;
+}
+.top a {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  font-size: 40px;
+  color: #e98df0;
+}
+.information {
+  display: flex;
+  margin-top: 70px;
+}
+.information input {
+  margin-left: 30px;
+  width: 300px;
+  height: 60px;
+  border: 3px solid #ea8edd;
+  background: #fff9ab;
+}
+.information .msg {
+  margin-left: 80px;
+  display: flex;
+}
+.information .msg p {
+  color: #e447b2;
+  font-size: 40px;
+  margin: 0 30px;
+}
+.comment {
+  margin-top: 40px;
+}
+.comment textarea {
+  border: 3px solid #ea8edd;
+  background: #fff9ab;
+  text-align: left;
+  padding-left: 0;
+  font-size: 30px;
+  padding: 10px;
+  color: #ea8edd;
+}
+.comment button {
+  width: 70px;
+  height: 50px;
+  display: block;
+  background-image: url(../images/button.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: 0;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.comment button a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+.leave {
+  width: 400px;
+  height: 400px;
+  position: fixed;
+  right: 100px;
+  bottom: 100px;
+  background: url(../images/2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: #b8fffe;
+}
+.leave a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+.leave a::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-color: rgba(184, 255, 254, 0.1);
+}

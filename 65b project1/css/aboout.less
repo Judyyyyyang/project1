@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: rgb( 238, 160, 200);
+    font-family: "CustomFont";
+}
+@font-face {
+    font-family: 'CustomFont';  // 定义字体名称
+    src: url('./2157-font.otf');  // 字体文件的URL
+  }
+.clear {
+    clear: both;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+
+    .top {
+        border: 5px solid rgb(196 179 214);
+        background: rgb( 241 232 144);
+        
+        width: 150px;
+        height: 60px;
+        margin: 10px auto;
+        text-align: center;
+        line-height: 50px;
+        a {
+            color: rgb(255 163 187);
+            display: inline-block;
+            width: 100%;
+            height: 100%;
+            font-size: 30px;
+        }
+    }
+    .title{
+        color: rgb(185 231 231);
+        text-align: center;
+        margin: 10px auto;
+        font-size: 40px;
+    }
+    .intro {
+        border: 3px solid rgb(255 165 187);
+        background: rgb(243 244 161);
+        color: rgb(192 174 192);
+        width: 70%;
+        margin: 10px auto;
+        padding: 10px 0;
+        .left{
+            float: left;
+            width:20%;
+            height: 40px;
+            line-height: 30px;
+            text-align: left;
+            padding-left: 20px;
+            font-size: 20px;
+            letter-spacing: 1px;
+            font-weight: bolder;
+        }
+        .right{
+            float: left;
+            width: 80%;
+            height: 40px;
+            line-height: 30px;
+            text-align: left;
+            font-size: 20px;
+            letter-spacing: 1px;
+            font-weight: bolder;
+        }
+    }
+    .smallText{
+        width: 70%;
+        margin: 10px auto;
+        font-size: 20px;
+        letter-spacing: 1px;
+        line-height: 50px;
+        color: rgb(176 215 248);
+        font-weight: bold;
+        word-break: break-all
+    }
+}

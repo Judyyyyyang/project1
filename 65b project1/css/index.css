@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: 'CustomFont';
+  src: url('2157-font.otf');
+}
+html {
+  width: 100%;
+  height: 100%;
+}
+body {
+  width: 100%;
+  height: 100%;
+  background: #eea0c8;
+  font-family: "CustomFont";
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+.fixed {
+  position: fixed;
+  width: 130px;
+  height: 70px;
+  text-align: center;
+  line-height: 60px;
+}
+.fixed a {
+  font-size: 30px;
+}
+.about {
+  left: 5%;
+  top: 5%;
+  background-color: #ffadc6;
+  border: 5px solid #ff467e;
+}
+.about a {
+  color: #ff467e;
+}
+.home {
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  background-color: #ff9d49;
+  border: 5px solid #fe8118;
+}
+.home a {
+  color: #fe8118;
+}
+.video {
+  right: 5%;
+  top: 5%;
+  background-color: #ffe66e;
+  border: 5px solid #febb18;
+}
+.video a {
+  color: #febb18;
+}
+.game {
+  bottom: 5%;
+  left: 5%;
+  background-color: #a3fa09;
+  border: 5px solid #69a400;
+}
+.game a {
+  color: #69a400;
+}
+.discussion {
+  right: 5%;
+  bottom: 5%;
+  width: 150px;
+  background-color: #34aaff;
+  border: 5px solid #0b6dfa;
+}
+.discussion a {
+  color: #0b6dfa;
+}
+.indexImg {
+  width: 100%;
+  height: 100%;
+}
+.indexImg img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
